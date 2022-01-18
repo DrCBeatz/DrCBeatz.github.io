@@ -43,11 +43,8 @@
                         <div class="bio mb-3">Hi! I'm Bryne Carruthers (aka Dr. C Beatz) and I'm a full stack web developer. Welcome to my personal website!</div>
                         <!--//bio-->
                         <ul class="social-list list-inline py-2 mx-auto">
-                            <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li> -->
                             <li class="list-inline-item"><a href="https://www.linkedin.com/in/bryne-carruthers/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
                             <li class="list-inline-item"><a href="https://github.com/drCBeatz/" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a></li>
-                            <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li> -->
-                            <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li> -->
                         </ul>
                         <!--//social-list-->
                         <hr>
@@ -64,15 +61,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="resume.html"><i class="fas fa-file-alt fa-fw me-2"></i>Resume</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="contact.html"><i class="fas fa-envelope-open-text fa-fw me-2"></i>Contact</a>
-                        </li> -->
                     </ul>
-
-                    <!-- <div class="my-2">
-                        <a class="btn btn-primary" href="contact.html" target="_blank"><i class="fas fa-paper-plane me-2"></i>Hire Me</a>
-                    </div> -->
-
 
                     <div class="dark-mode-toggle text-center w-100">
                         <hr class="mb-4">
@@ -120,20 +109,44 @@
         <section class="featured-section p-3 p-lg-5">
             <div class="container">
                 <h2 class="section-title font-weight-bold mb-5">Featured Websites</h2>
-                <!-- <h2 class="section-title font-weight-bold mb-5">Website Portfolio</h2> -->
                 <div class="row">
+		<div class="col-md-6 mb-5">
+                        <div class="card project-card">
+                            <div class="row no-gutters">
+                                <div class="col-12 col-xl-5 card-img-holder">
+                                    <img src="assets/images/JHA_screenshot2.png" class="card-img" alt="image">
+                                </div>
+                                <div class="col-12 col-xl-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="https://www.jimhandsauction.com" target="_blank" class="theme-link">Jim Hands Auction</a></h5>
+                                        <p class="card-text">A custom content management system web application for the family run business Jim Hands Auction, Established in 1938. Responsive/Mobile-Friendly, SEO, with A+ security rating on Mozilla Observatory.</p>
+                                        <p class="card-text"><small class="text-muted">Client: Jim & Judy Hands</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask">
+                                <a class="link-mask-link" href="https://www.jimhandsauction.com" target="_blank"></a>
+                                <div class="link-mask-text">
+                                    <a class="btn btn-secondary" href="https://www.jimhandsauction.com" target="_blank">
+                                        <i class="fas fa-eye me-2"></i>View Website
+                                    </a>
+                                </div>
+                            </div>
+                            <!--//link-mask-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->	
                     <div class="col-md-6 mb-5">
                         <div class="card project-card">
                             <div class="row no-gutters">
                                 <div class="col-12 col-xl-5 card-img-holder">
-                                    <!-- <img src="assets/images/project/project-1.jpg" class="card-img" alt="image"> -->
                                     <img src="assets/images/pvm_7.png" class="card-img" alt="image">
                                 </div>
                                 <div class="col-12 col-xl-7">
                                     <div class="card-body">
                                         <h5 class="card-title"><a href="https://www.pasturevalleymarketplace.com" class="theme-link" target="_blank">Pasture Valley Marketplace</a></h5>
                                         <p class="card-text">Pasture Valley Marketplace is an easy to use content management system and e-commerce web app that helps connect local producers to their customers. Dynamically generates content without knowing any HTML or CSS. Easily generates reports on revenue and inventory.</p>
-                                        <!-- <p class="card-text"><small class="text-muted">Client: Val Dyer - Pasture Valley Marketplace</small></p> -->
                                     </div>
                                 </div>
                             </div>
@@ -154,14 +167,12 @@
                         <div class="card project-card">
                             <div class="row no-gutters">
                                 <div class="col-12 col-xl-5 card-img-holder">
-                                    <!-- <img src="assets/images/project/project-2.jpg" class="card-img" alt="image"> -->
                                     <img src="assets/images/dl_3.png" class="card-img" alt="image">
                                 </div>
                                 <div class="col-12 col-xl-7">
                                     <div class="card-body">
                                         <h5 class="card-title"><a href="https://www.digilouvre.com" class="theme-link" target="_blank">Digi Louvre</a></h5>
                                         <p class="card-text">Digi Louvre is an easy-to-use web-based digital image content management system that allows artists and photographers to display their images and sell image prints online with PayPal or credit card (via Stripe).</p>
-                                        <!-- <p class="card-text"><small class="text-muted">Client: Mary Ferguson - Qi-images.com</small></p> -->
                                     </div>
                                 </div>
                             </div>
@@ -188,7 +199,6 @@
                                     <div class="card-body">
                                         <h5 class="card-title"><a href="https://www.spacetagram.io" class="theme-link" target="_blank">Spacetagram</a></h5>
                                         <p class="card-text">Spacetagram is an Instagram-style web application that searches (both randomly and by date) and displays images from NASA's Astronomy Picture of the Day API. Made with Svelte JS (ES6 Javascript) and Django (Python).</p>
-                                        <!-- <p class="card-text"><small class="text-muted">Client: Uber</small></p> -->
                                     </div>
                                 </div>
                             </div>
@@ -196,33 +206,6 @@
                                 <a class="link-mask-link" href="https://www.spacetagram.io" target="_blank"></a>
                                 <div class="link-mask-text">
                                     <a class="btn btn-secondary" href="https://www.spacetagram.io" target="_blank">
-                                        <i class="fas fa-eye me-2"></i>View Website
-                                    </a>
-                                </div>
-                            </div>
-                            <!--//link-mask-->
-                        </div>
-                        <!--//card-->
-                    </div>
-                    <!--//col-->
-                    <div class="col-md-6 mb-5">
-                        <div class="card project-card">
-                            <div class="row no-gutters">
-                                <div class="col-12 col-xl-5 card-img-holder">
-                                    <img src="assets/images/mlt_6.png" class="card-img" alt="image">
-                                </div>
-                                <div class="col-12 col-xl-7">
-                                    <div class="card-body">
-                                        <h5 class="card-title"><a href="https://www.machine-learning-tool.com" target="_blank" class="theme-link">Machine Learning Tool</a></h5>
-                                        <p class="card-text">This web app lets you train and test various supervised machine learning algorithms and visualize the accuracy (and r2 score) of their results. It allows you to adjust parameters that control the complexity of the algorithm model and save these results for future comparison. It also lets you upload and save your own custom datasets in CSV or Excel formats.</p>
-                                        <!-- <p class="card-text"><small class="text-muted">Client: Google</small></p> -->
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="link-mask">
-                                <a class="link-mask-link" href="https://www.machine-learning-tool.com" target="_blank"></a>
-                                <div class="link-mask-text">
-                                    <a class="btn btn-secondary" href="https://www.machine-learning-tool.com" target="_blank">
                                         <i class="fas fa-eye me-2"></i>View Website
                                     </a>
                                 </div>
@@ -263,11 +246,10 @@
                     </div>
                     <div class="item col-6 col-lg-3">
                         <div class="item-inner">
-                            <div class="item-icon"><i class="fab fa-js-square me-2"></i></i><i class="fab fa-vuejs"></i><i class="fab fa-react"></i></div>
-                            <h3 class="item-title">ES6 JavaScript, Typescript, Svelte JS, Vue JS &amp; React</h3>
-                            <div class="item-desc">Proficient in ES6 Javascript, AJAX and REST APIs (Stripe, Google Maps, TinyMCE, etc.). Familiar with various front-end frameworks (Vue, React, Svelte) for creating Single Page Applications and Progressive Web Apps.</div>
+                            <div class="item-icon"><i class="fab fa-js-square me-2"></i><i class="fab fa-node me-2"></i><i class="fab fa-react"></i><i class="fab fa-vuejs"></i></div>
+                            <h3 class="item-title">ES6 JavaScript, Typescript, Node JS, Svelte JS, React &amp; Vue JS</h3>
+                            <div class="item-desc">Proficient in ES6 Javascript, Typescript, Node JS & Express. Familiar with various front-end frameworks (Vue, React, Svelte) for creating Single Page Applications and Progressive Web Apps.</div>
                         </div>
-                        <!-- <i class="fab fa-node me-2"></i> -->
                         <!--//item-inner-->
                     </div>
                     <!--//item-->
@@ -306,7 +288,7 @@
                     <div class="item col-6 col-lg-3">
                         <div class="item-inner">
                             <div class="item-icon"><i class="fa fa-database"></i></div>
-                            <h3 class="item-title">PostgreSQL &amp; MySQL</h3>
+                            <h3 class="item-title">MySQL, PostgreSQL &amp; SQLite</h3>
                             <div class="item-desc">Proficient in native SQL (including at the command-line) and robust relational database design (including many-to-one and many-to-many relationships).
                             </div>
                         </div>
@@ -317,10 +299,6 @@
 
                 </div>
                 <!--//row-->
-                <!-- <div class="text-center py-3"><a href="services.html" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right me-2"></i>Services &amp; Pricing
-					
-				</a></div> -->
-
             </div>
             <!--//container-->
         </section>
@@ -330,63 +308,17 @@
         </div>
 
         <footer class="footer text-center py-4">
-            <small class="copyright">Copyright &copy;2021 <a href="https://github.com/drcbeatz/" target="_blank">Dr. C Beatz</a></small>
+            <small class="copyright">Copyright &copy;2022 <a href="https://github.com/drcbeatz/" target="_blank">Dr. C Beatz</a></small>
         </footer>
 
     </div>
     <!--//main-wrapper-->
-
-    <!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->
-    <!-- <div id="config-panel" class="config-panel config-panel-hide d-none d-lg-block"> -->
-        <!-- <div class="panel-inner">
-            <a id="config-trigger" class="config-trigger text-center" href="#"><i class="fas fa-cog mx-auto" data-fa-transform="down-6" ></i></a>
-            <h5 class="panel-title">Choose Colour</h5>
-            <ul id="color-options" class="list-inline mb-0">
-                <li class="theme-1 active list-inline-item">
-                    <a data-style="assets/css/theme-1.css" href="#"></a>
-                </li>
-                <li class="theme-2  list-inline-item">
-                    <a data-style="assets/css/theme-2.css" href="#"></a>
-                </li>
-                <li class="theme-3  list-inline-item">
-                    <a data-style="assets/css/theme-3.css" href="#"></a>
-                </li>
-                <li class="theme-4  list-inline-item">
-                    <a data-style="assets/css/theme-4.css" href="#"></a>
-                </li>
-                <li class="theme-5  list-inline-item">
-                    <a data-style="assets/css/theme-5.css" href="#"></a>
-                </li>
-                <li class="theme-6  list-inline-item">
-                    <a data-style="assets/css/theme-6.css" href="#"></a>
-                </li>
-                <li class="theme-7  list-inline-item">
-                    <a data-style="assets/css/theme-7.css" href="#"></a>
-                </li>
-                <li class="theme-8  list-inline-item">
-                    <a data-style="assets/css/theme-8.css" href="#"></a>
-                </li>
-                <li class="theme-9  list-inline-item">
-                    <a data-style="assets/css/theme-9.css" href="#"></a>
-                </li>
-                <li class="theme-10  list-inline-item">
-                    <a data-style="assets/css/theme-10.css" href="#"></a>
-                </li>
-            </ul>
-            <a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a>
-        </div> -->
-        <!--//panel-inner-->
-    <!-- </div> -->
-    <!--//configure-panel-->
 
     <!-- Javascript -->
     <script src="assets/plugins/popper.min.js"></script>
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 
     <script src="assets/plugins/tiny-slider/min/tiny-slider.js"></script>
-
-    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
-    <!-- <script src="assets/js/demo/style-switcher.js"></script> -->
 
     <!-- Dark Mode -->
     <script src="assets/plugins/js-cookie.min.js"></script>
